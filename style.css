@@ -19,8 +19,9 @@
 
 .button {
     background-color: var(--orange);
-    border: .4em ridge #F23005;
-    color: white;
+    background-image: url(images/concrete.jpg);
+    border: .2em solid #686868;
+    color: rgb(0, 0, 0);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -30,7 +31,6 @@
     transition: 0.3s;
     border-radius: 10px;
     font-size: 1.2em;
-    text-shadow: rgba(0, 0, 0, 0.37) 2px 2px;
     font-family: main, Arial, Helvetica, sans-serif;
     margin: 5px;
 }
@@ -112,6 +112,7 @@ main {
     box-shadow: rgba(0, 0, 0, 0.404) 5px 5px;
     box-sizing: content-box;
     height: fit-content;
+    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 255, 0.281));
 }
 
 main > img {
@@ -131,26 +132,17 @@ main > p {
 }
 
 footer {
-    width: 98%;
+    width: 60%;
     height: fit-content;
     margin: auto;
     background-color: var(--orange);
     padding: 1%;
     margin-top: 15px;
-    bottom: 0;
+    border-radius: 10px 10px 10px 10px;
 }
 
 footer > p {
     margin: 0;
     margin-left: 30px;
     font-size: 1em;
-}
-
-footer > img {
-    display: inline-block;
-    margin: 0;
-    text-align: left;
-    height: 30px;
-    object-fit: contain;
-    width: 30px;
 }
